@@ -6,8 +6,8 @@
         <p>{{ $shop->category->name }}</p>
         <p>{{ $shop->address }}</p>
     </div>
-    
-    <iframe id='map' src='https://www.google.com/maps/embed/v1/place?key=AIzaSyCJBgcuCowQa5-V8owXaUCHhUNBN8bfMfU&amp;q={{ $shop->address }}'
+
+    <iframe id='map' src='https://www.google.com/maps/embed/v1/place?key=AIzaSyCJBgcuCowQa5-V8owXaUCHhUNBN8bfMfU&q={{ $shop->address }}'
     width='100%'
     height='320'
     frameborder='0'>
